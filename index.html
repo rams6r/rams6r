@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>My Blog</title>
+	<link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+</head>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>  
+        <li><a href="hobbies.html">My Hobbies</a></li>
+        <li><a href="hometown.html">Home Town</a></li>
+    </ul>
+    <style>
+      body {
+        background-image: url('https://th.bing.com/th/id/OIP.jUEENo9xvwIMEMsrqYeA4wHaFj?w=214&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      </style>
+    <p style="background-image: url('img_girl.jpg');">
+
+    <div style="margin-block-start: 40px;">
+        <p id="imageText">MY SELF JAYA RAM BABU BONTHU, WELCOME TO MY PAGE</p>
+          <img id="image" src="download.jpg" alt="GFG image" />
+      </div>
+        <button id="one" onclick="return onClickButton1()">PLEASE CLICK IF YOU ARE HAPPY TO BE HERE</button>
+      </div>
+      <div>
+        <br>
+         <button id="two"onclick="return onClickButton()">Enter Verifaction Number</button>
+         </br>
+      </div>
+
+      <form style="margin-block-start: 40px;">
+        <input type="text" id="input1" placeholder="enter phone"  required>
+        <button type="submit" onclick="return validatePhone()">Validate</button>
+        <p id="errorNumberText" style="display:none; color:red;">Incorrect Phone,try again.</p>
+      </form>
+        <h2>About this website</h2>
+        <button class="accordion-title">About Myself</button>
+        <div class="accordion-content">
+          <p>I am from guntur my educational qualifications are undergraduate and mastrs</p>
+        </div>    
+        <button class="accordion-title">My Hobbies</button>
+        <div class="accordion-content">
+          <p>my hobbies are playing videogames.</p>
+        
+        </div>
+        
+        <button class="accordion-title">My Home Town</button>
+        <div class="accordion-content">
+          <p>my hometown is guntur</p>
+        </div>
+</body>
+<script src="assets/js/index.js"></script>
+<script>
+    onLoad();
+</script>
+</html>
